@@ -1,0 +1,27 @@
+{
+  "name": "codexten/yii-sms-aws",
+  "type": "yii2-extension",
+  "description": "yii aws",
+  "keywords": [
+    "yiisoft",
+    "aws",
+    "codexten",
+    "yii2"
+  ],
+  "require": {
+    "codexten/yii-aws": ">=2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "codexten\\yii\\sms\\aws\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "2.0.x-dev"
+    },
+    "sconfig-plugin": {
+      "hidev": "config/hidev.php"
+    }
+  }
+}
