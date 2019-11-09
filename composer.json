@@ -9,7 +9,8 @@
     "yii2"
   ],
   "require": {
-    "codexten/yii-aws": ">=2.0"
+    "codexten/yii-aws": ">=2.0",
+    "codexten/yii-sms": ">=2.0"
   },
   "autoload": {
     "psr-4": {
