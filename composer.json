@@ -21,8 +21,12 @@
     "branch-alias": {
       "dev-master": "2.0.x-dev"
     },
-    "sconfig-plugin": {
-      "hidev": "config/hidev.php"
+    "config-plugin": {
+      "sms": [
+        "$aws",
+        "config/sms.php"
+      ],
+      "params": "config/params.php"
     }
   }
 }
